@@ -1,0 +1,57 @@
+// Return all numbers that appear at least k times.
+// Example: nums = [1, 2, 2, 3, 3, 3, 4, 4, 4], k = 2
+// Output: [2, 3, 4]
+
+package ArraysAndHashing;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class findNumberAppearsAtLeastKTimes {
+    public int[] findNumberAppearTimes(int[] nums, int k) {
+
+        // count frequencies 
+        Map<Integer, Integer> freq = new HashMap<>();
+
+        for (int num : nums) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        }
+
+        // find numbers appearing at least k times
+        ArrayList<Integer> resultList = new ArrayList<>();
+        for (Map.Entry<Integer, Integer> entry : freq.entrySet()) {
+            if (entry.getValue() >= k) {
+                resultList.add(entry.getKey());
+            }
+        }
+
+        // convert ArrayList<Integer> to int[]
+        int[] result = new int[resultList.size()];
+        for (int i = 0; i < resultList.size(); i++) {
+            result[i] = resultList.get(i);
+        }
+        return result;
+    }
+
+    public int[] returnTopKFrequent(int[] nums, int k) {
+        return findNumberAppearTimes(nums, k);
+    }
+
+    public static void main(String[] args) {
+        findNumberAppearsAtLeastKTimes test = new findNumberAppearsAtLeastKTimes();
+        int[] nums = {1, 2, 2, 3, 3, 3, 4, 4, 4};
+        int k = 2;
+        System.out.println(java.util.Arrays.toString(test.returnTopKFrequent(nums, k)));
+    }
+}
+
+// What to remember: 
+// Important pattern for hash map
+
+// for (int key : hm.keySet()) {
+//     int value = hm.get(key);
+//     if (value >= k) {
+//         // do something with key
+//     }
+// }
