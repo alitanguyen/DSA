@@ -1,5 +1,5 @@
-// neetcode 150 
-// topic: sliding window
+// neetcode 150 easy
+// technique: sliding window
 
 package two_pointers;
 
