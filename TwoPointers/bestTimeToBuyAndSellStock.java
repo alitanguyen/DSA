@@ -1,6 +1,6 @@
 package TwoPointers;
 
-public class bestTimeToBuyAndSellStock {
+public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         int left = 0, right = 1;
         int maxProfit = 0; 
