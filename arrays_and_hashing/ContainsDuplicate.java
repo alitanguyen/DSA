@@ -18,7 +18,7 @@ import java.util.HashSet;
 
 
 public static void main(String[] args) {
-    containsDuplicate test = new containsDuplicate();
+    ContainsDuplicate test = new ContainsDuplicate();
     int[] nums1 = {1, 2, 3, 1};     // true
 
     System.out.println(test.hasDuplicate(nums1));

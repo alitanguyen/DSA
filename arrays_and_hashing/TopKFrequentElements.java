@@ -31,7 +31,7 @@ public class TopKFrequentElements {
 
         }
     public static void main(String[] args) {
-        topKFrequentElements test = new topKFrequentElements();
+        TopKFrequentElements test = new TopKFrequentElements();
         int[] nums = {1, 2, 2, 3, 3, 3};
         int k = 2;
         System.out.println(

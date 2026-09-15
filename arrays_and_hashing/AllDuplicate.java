@@ -21,7 +21,7 @@ public class AllDuplicate{
         }
 
 public static void main(String[] args) {
-    allDuplicate test = new allDuplicate();
+    AllDuplicate test = new AllDuplicate();
     
     int[] nums = {1, 2, 3, 2, 4, 4, 4};
     System.out.println(test.returnAllDuplicate(nums));   // output: [2, 4, 4]

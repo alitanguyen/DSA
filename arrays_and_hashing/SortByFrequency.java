@@ -32,7 +32,7 @@ public class SortByFrequency {
 
     }
 public static void main(String[] args) {
-        sortByFrequency test = new sortByFrequency();
+        SortByFrequency test = new SortByFrequency();
         int[] nums = {4, 4, 1, 1, 1, 2};
         System.out.println(
             java.util.Arrays.toString(

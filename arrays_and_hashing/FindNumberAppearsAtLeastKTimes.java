@@ -61,7 +61,7 @@ public class FindNumberAppearsAtLeastKTimes {
     }
 
     public static void main(String[] args) {
-        findNumberAppearsAtLeastKTimes test = new findNumberAppearsAtLeastKTimes();
+        FindNumberAppearsAtLeastKTimes test = new FindNumberAppearsAtLeastKTimes();
         int[] nums = {1, 2, 2, 3, 3, 3, 4, 4, 4};
         int k = 2;
         System.out.println(java.util.Arrays.toString(test.returnTopKFrequent(nums, k)));
