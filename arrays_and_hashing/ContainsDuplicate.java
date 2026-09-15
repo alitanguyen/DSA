@@ -1,8 +1,8 @@
 // EASY (Neetcode 150)
-package ArraysAndHashing;
+package arrays_and_hashing;
 import java.util.HashSet;
 
-    class containsDuplicate {
+    class ContainsDuplicate {
         public boolean hasDuplicate(int[] nums) {
             // create a HashSet that store Integer values 
             HashSet<Integer> seen = new HashSet<>();

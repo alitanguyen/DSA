@@ -3,12 +3,12 @@
 // Example: nums = [4, 4, 1, 1, 1, 2]
 // Output: [1, 4, 2]
 
-package ArraysAndHashing;
+package arrays_and_hashing;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class sortByFrequency {
+public class SortByFrequency {
     public int[] sortNumbersByFrequency (int[] nums) {
         // count the frequencies 
         HashMap<Integer, Integer> hm = new HashMap<>();

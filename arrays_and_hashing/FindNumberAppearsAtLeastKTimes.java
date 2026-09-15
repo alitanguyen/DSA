@@ -2,13 +2,13 @@
 // Example: nums = [1, 2, 2, 3, 3, 3, 4, 4, 4], k = 2
 // Output: [2, 3, 4]
 
-package ArraysAndHashing;
+package arrays_and_hashing;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class findNumberAppearsAtLeastKTimes {
+public class FindNumberAppearsAtLeastKTimes {
 
     // Option 1: 
     // public int[] findNumberAppearTimes(int[] nums, int k) {

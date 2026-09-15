@@ -2,11 +2,11 @@
 // Return each duplicate number
 // Example: [1, 2, 3, 2, 4, 4, 4] → [2, 4, 4]
 
-package ArraysAndHashing;
+package arrays_and_hashing;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-public class allDuplicate{
+public class AllDuplicate{
     public ArrayList<Integer> returnAllDuplicate(int[] nums) {
         HashSet<Integer> seen = new HashSet<>();
         ArrayList<Integer> result = new ArrayList<>();

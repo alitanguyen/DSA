@@ -2,11 +2,11 @@
 // Return the first number that appears twice
 // Example: [1, 2, 3, 2, 4] → 2
 
-package ArraysAndHashing;
+package arrays_and_hashing;
 
 import java.util.HashSet;
 
-public class firstDuplicate {
+public class FirstDuplicate {
     public int returnFirstDuplicate(int[] nums) {
         HashSet<Integer> seen = new HashSet<>();
         for (int num : nums) {

@@ -1,6 +1,6 @@
 package two_pointers;
 
-public class BestTimeToBuyAndSellStock {
+public class bestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length < 2) {
             return 0;

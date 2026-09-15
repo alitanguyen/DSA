@@ -2,11 +2,11 @@
 // Input: nums = [1,2,2,3,3,3], k = 2
 // Output: [2,3]
 
-package ArraysAndHashing;
+package arrays_and_hashing;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class topKFrequentElements {
+public class TopKFrequentElements {
         public int[] returnTopKFrequent(int[] nums, int k) {
         
         // count # times each number appears (frequencies)

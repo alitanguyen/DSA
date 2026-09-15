@@ -2,10 +2,10 @@
 // Return each duplicate number only once
 // Example: [1, 2, 3, 2, 4, 4, 4] → [2, 4]
 
-package ArraysAndHashing;
+package arrays_and_hashing;
 import java.util.HashSet;
 
-public class allDuplicateOnce {
+public class AllDuplicateOnce {
     public HashSet<Integer> returnAllDuplicateOnce(int[] nums) {
         HashSet<Integer> seen = new HashSet<>();
         HashSet<Integer> resultUniqueSet = new HashSet<>();
