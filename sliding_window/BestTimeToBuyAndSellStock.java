@@ -1,7 +1,7 @@
 // neetcode 150 easy
 // technique: sliding window
 
-package two_pointers;
+package sliding_window;
 
 public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
