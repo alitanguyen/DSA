@@ -4,7 +4,7 @@
 
 package two_pointers;
 
-public class TwoIntegerSumTwoPointers {
+public class TwoSumTwoPointers {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
         int right = numbers.length - 1;
@@ -27,7 +27,7 @@ public class TwoIntegerSumTwoPointers {
     }
     
     public static void main(String[] args) {
-        TwoIntegerSumTwoPointers test = new TwoIntegerSumTwoPointers();
+        TwoSumTwoPointers test = new TwoSumTwoPointers();
         int[] result = test.twoSum(new int[]{1, 2, 3, 4}, 3);
         System.out.println(result[0] + ", " + result[1]);
     }

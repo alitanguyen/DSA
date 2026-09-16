@@ -3,7 +3,7 @@
 // right expands the window. left shrinks the window when the window becomes invalid.
 // time complexity: O(n)
 
-package two_pointers;
+package sliding_window;
 
 import java.util.HashSet;
 import java.util.Set;

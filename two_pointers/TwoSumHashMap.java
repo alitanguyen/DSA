@@ -6,7 +6,7 @@ package two_pointers;
 
 import java.util.HashMap;
 
-public class TwoIntegerSumHashMap {
+public class TwoSumHashMap {
     public int[] twoSum(int[] numbers, int target) {
         HashMap<Integer, Integer> seen = new HashMap<>();
             for (int i = 0; i < numbers.length; i++) {
@@ -23,7 +23,7 @@ public class TwoIntegerSumHashMap {
     
 }
 public static void main(String[] args) {
-    TwoIntegerSumHashMap test = new TwoIntegerSumHashMap();
+    TwoSumHashMap test = new TwoSumHashMap();
     int[] result = test.twoSum(new int[]{2, 4, 1, 6}, 10);
     System.out.println(result[0] + ", " + result[1]);
     }
