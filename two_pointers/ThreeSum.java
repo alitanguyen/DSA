@@ -1,5 +1,5 @@
-// neetcode 150 medium 
-// technique: two pointers 
+// neetcode 150 medium - ON GOING
+// technique: two pointers
 
 package two_pointers;
 
